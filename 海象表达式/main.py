@@ -75,4 +75,3 @@ def get_bmi(info: dict) -> tuple[str, int]:
 
 fat_bmi = [bmi for i in members if (bmi := get_bmi(i))[1] > 24]
 print(fat_bmi)  # [('小陈', 25.88057063502083)]
-
